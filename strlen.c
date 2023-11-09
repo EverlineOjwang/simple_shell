@@ -9,7 +9,6 @@ size_t our_strlen(const char *str) {
     size_t length = 0;
 
     for (; str[length] != '\0'; length++) {
-        // Loop until the null terminator is encountered
     }
 
     return length;

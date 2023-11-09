@@ -7,7 +7,7 @@
  * @signal: signal number (unused)
  */
 void signal_handler(int signal) {
-    (void)signal; // Suppress unused parameter warning
+    (void)signal;
 
     write(STDOUT_FILENO, "\n$ ", 3);
 }
